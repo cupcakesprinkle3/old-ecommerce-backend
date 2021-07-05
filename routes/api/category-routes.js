@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
+//perform create, read, update, and delete operations using your Sequelize models.
 
 router.get('/', (req, res) => {
   // find all categories
